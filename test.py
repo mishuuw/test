@@ -6,3 +6,6 @@ def add(a, b):
 
 def power(base, exponent):
     return base ** exponent
+
+def root(value, n):
+    return value ** (1/n)
