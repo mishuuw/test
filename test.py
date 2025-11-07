@@ -9,3 +9,8 @@ def subtract(a, b):
 
 def MULTIPLY(a, b):
     return a * b
+def power(base, exponent):
+    return base ** exponent
+
+def root(value, n):
+    return value ** (1/n)
