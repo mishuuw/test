@@ -14,3 +14,8 @@ def power(base, exponent):
 
 def root(value, n):
     return value ** (1/n)
+
+def divide(a, b):
+    if b == 0:
+        return "Error: Division by zero"
+    return a / b
